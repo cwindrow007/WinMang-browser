@@ -1,0 +1,20 @@
+[package]
+name = "WinMang-browser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Window Layering for key inputs
+tao = "0.16.0"
+
+# Web Viewer
+wry = "0.24.0"
+
+## Saving and aoding browser settings and tabs
+serde = {version = "1.0.0", feature = ["derive"]}
+serde_json = "1.0.0"
+
+#URL Handling
+
+url = "2.4.0"
